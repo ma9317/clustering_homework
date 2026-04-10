@@ -8,7 +8,7 @@ Hierarchical clustering is better suited for this type of data because it dosen'
 
 This issue became evident in the results. I was initially afraid I did something wrong, because it made no sense.  
 <img width="796" height="295" alt="image" src="https://github.com/user-attachments/assets/a7af4d6b-3f19-4f09-9526-0a013b84d620" />  
-One cluster had the majority of observations (around 100) while the remaining clusters had <10. The "optimal" number of clusters for KMeans clustering was identified using the "elbow" method--k turned out to be 4. But even when adjusting the number of clusters, the algorithm continued to produce skewed distributions, suggesting that it wasn't capturing meaningful structure in the data. For example:  
+One cluster had the majority of observations (around 100) while the remaining clusters had <10. The "optimal" number of clusters for KMeans clustering was identified using the "elbow" method--k turned out to be 2. But even when adjusting the number of clusters, the algorithm continued to produce skewed distributions, suggesting that it wasn't capturing meaningful structure in the data. For example:  
 <img width="858" height="228" alt="image" src="https://github.com/user-attachments/assets/46a78d27-54d6-462c-9dbb-497aa120db2b" />
 <img width="802" height="267" alt="image" src="https://github.com/user-attachments/assets/ae9e3a14-aef1-4233-bbb9-0c876821b586" />
 <img width="798" height="301" alt="image" src="https://github.com/user-attachments/assets/5258e85a-e92f-47bf-b554-ea7757c239f3" />
